@@ -1,7 +1,11 @@
 spring:
   application:
     name: boki-spring-actuator2
+
 management:
+#  server:
+#    port: 9292
+#    base-path: '/manage'
   info:
     java:
       enabled: true
