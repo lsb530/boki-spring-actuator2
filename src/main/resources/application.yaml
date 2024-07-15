@@ -7,6 +7,8 @@ management:
       enabled: true
     os:
       enabled: true
+    env:
+      enabled: true
   endpoints:
     web:
       exposure:
@@ -17,3 +19,9 @@ management:
     health:
       show-details: always
 #      show-components: always
+
+
+info:
+  app:
+    name: boki-actuator
+    company: bk
