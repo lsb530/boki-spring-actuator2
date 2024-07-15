@@ -33,3 +33,6 @@ Content-Type: application/json
 {
   "configuredLevel": "TRACE"
 }
+
+### HTTP request/response memory endpoint
+GET {{actuator}}/httpexchanges
