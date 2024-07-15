@@ -15,3 +15,6 @@ POST {{actuator}}/shutdown
 
 ### Health endpoint
 GET {{actuator}}/health
+
+### Info endpoint
+GET {{actuator}}/info

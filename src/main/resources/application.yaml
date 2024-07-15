@@ -2,6 +2,11 @@ spring:
   application:
     name: boki-spring-actuator2
 management:
+  info:
+    java:
+      enabled: true
+    os:
+      enabled: true
   endpoints:
     web:
       exposure:
