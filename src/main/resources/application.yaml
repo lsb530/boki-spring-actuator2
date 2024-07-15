@@ -1,1 +1,11 @@
-spring.application.name=boki-spring-actuator2
+spring:
+  application:
+    name: boki-spring-actuator2
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
