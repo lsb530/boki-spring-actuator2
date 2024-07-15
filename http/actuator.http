@@ -1,0 +1,14 @@
+@protocol = http
+@myhost = localhost:8080
+@target = {{protocol}}://{{myhost}}
+@actuator = {{protocol}}://{{myhost}}/actuator
+// @no-log
+// @no-cookie-jar
+
+### Actuator endpoints
+# actuator 접속 엔드포인트
+GET {{actuator}}
+
+### Shutdown
+# 서버 강제 종료
+POST {{actuator}}/shutdown
