@@ -25,3 +25,7 @@ info:
   app:
     name: boki-actuator
     company: bk
+
+logging:
+  level:
+    com.boki.bokispringactuator2.controller: debug

@@ -18,3 +18,18 @@ GET {{actuator}}/health
 
 ### Info endpoint
 GET {{actuator}}/info
+
+### Call Log
+GET {{target}}/log
+
+### Logger endpoint
+GET {{actuator}}/loggers
+
+### Change Logger Level
+# 로그 레벨 실시간 변경
+POST {{actuator}}/loggers/com.boki.bokispringactuator2.controller
+Content-Type: application/json
+
+{
+  "configuredLevel": "TRACE"
+}
