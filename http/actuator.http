@@ -36,3 +36,19 @@ Content-Type: application/json
 
 ### HTTP request/response memory endpoint
 GET {{actuator}}/httpexchanges
+
+### Metrics endpoint
+GET {{actuator}}/metrics
+
+### JVM Tag Filter
+# tag=key:value로 필터링
+GET {{actuator}}/metrics/jvm.memory.used?tag=area:heap
+
+### HTTP Request Count
+GET {{actuator}}/metrics/http.server.requests
+
+### HTTP Request Count Tag Filter(/log)
+GET {{actuator}}/metrics/http.server.requests?tag=uri:/log
+
+### HTTP Request Count Tag Filter(/log and 200)
+GET {{actuator}}/metrics/http.server.requests?tag=uri:/log&tag=status:200
