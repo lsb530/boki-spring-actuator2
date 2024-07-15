@@ -1,0 +1,7 @@
+prometheus.yml 맨 마지막에
+  #추가
+  - job_name: "spring-actuator"
+    metrics_path: '/actuator/prometheus'
+    scrape_interval: 1s
+    static_configs:
+    - targets: ['localhost:8080']
