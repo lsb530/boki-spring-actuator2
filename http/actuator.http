@@ -58,3 +58,6 @@ GET {{actuator}}/metrics/tomcat.threads.config.max
 
 ### Tomcat Thread Busy
 GET {{actuator}}/metrics/tomcat.threads.busy
+
+### Prometheus
+GET {{actuator}}/prometheus
