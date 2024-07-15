@@ -1,0 +1,5 @@
+- prometheus
+https://prometheus.io/download/
+
+- grafana
+https://grafana.com/grafana/download?platform=mac

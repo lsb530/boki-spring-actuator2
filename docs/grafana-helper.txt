@@ -1,0 +1,2 @@
+- shared dashboards
+https://grafana.com/grafana/dashboards/
