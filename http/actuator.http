@@ -52,3 +52,9 @@ GET {{actuator}}/metrics/http.server.requests?tag=uri:/log
 
 ### HTTP Request Count Tag Filter(/log and 200)
 GET {{actuator}}/metrics/http.server.requests?tag=uri:/log&tag=status:200
+
+### Tomcat Thread Config Max
+GET {{actuator}}/metrics/tomcat.threads.config.max
+
+### Tomcat Thread Busy
+GET {{actuator}}/metrics/tomcat.threads.busy

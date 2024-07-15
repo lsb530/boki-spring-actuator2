@@ -33,3 +33,8 @@ info:
 logging:
   level:
     com.boki.bokispringactuator2.controller: debug
+
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
