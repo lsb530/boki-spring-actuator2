@@ -1,4 +1,4 @@
-package com.boki.bokispringactuator2.order.v2;
+package com.boki.bokispringactuator2.order.v1;
 
 import com.boki.bokispringactuator2.order.OrderService;
 import io.micrometer.core.instrument.MeterRegistry;

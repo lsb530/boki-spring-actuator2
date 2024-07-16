@@ -1,7 +1,6 @@
 package com.boki.bokispringactuator2;
 
-import com.boki.bokispringactuator2.order.v0.OrderConfigV0;
-import com.boki.bokispringactuator2.order.v2.OrderConfigV1;
+import com.boki.bokispringactuator2.order.v1.OrderConfigV1;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.actuate.web.exchanges.InMemoryHttpExchangeRepository;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
