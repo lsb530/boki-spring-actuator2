@@ -1,5 +1,7 @@
 package com.boki.bokispringactuator2;
 
+import com.boki.bokispringactuator2.order.gauge.StockConfigV1;
+import com.boki.bokispringactuator2.order.gauge.StockConfigV2;
 import com.boki.bokispringactuator2.order.v1.OrderConfigV1;
 import com.boki.bokispringactuator2.order.v2.OrderConfigV2;
 import com.boki.bokispringactuator2.order.v3.OrderConfigV3;
@@ -14,7 +16,8 @@ import org.springframework.context.annotation.Import;
 //@Import(OrderConfigV1.class)
 //@Import(OrderConfigV2.class)
 //@Import(OrderConfigV3.class)
-@Import(OrderConfigV4.class)
+//@Import({OrderConfigV4.class, StockConfigV1.class})
+@Import({OrderConfigV4.class, StockConfigV2.class})
 @SpringBootApplication(scanBasePackages = "com.boki.bokispringactuator2.controller")
 public class BokiSpringActuator2Application {
 

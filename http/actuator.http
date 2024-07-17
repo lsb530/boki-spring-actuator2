@@ -61,3 +61,9 @@ GET {{actuator}}/metrics/tomcat.threads.busy
 
 ### Prometheus
 GET {{actuator}}/prometheus
+
+### Metric - Order(Counter)
+GET {{actuator}}/metrics/my.order
+
+### Mertic - Stock(Gauge)
+GET {{actuator}}/metrics/my.stock
